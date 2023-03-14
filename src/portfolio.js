@@ -1,19 +1,16 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
+  homepage: 'https://jravali2204.github.io/cleanfolio',
   title: 'JS.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
-  description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+  name: 'Ravali Jangala',
+  role: 'Full Stack Engineer',
+  description: 'Passionate Full stack Engineer with expertise in various programming languages and building robust web applications that can scale upon need.',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/ravali-j-4770a2268'
   },
 }
 
@@ -21,29 +18,11 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'ISpace Technologies',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
+      'I was a part of payment processing team, as part of this project. We  had an opportunity to rebuild the entire credit and debit card processing. We use ISO standard messages to process payments. Previously the payments were processed thru mainframe systems but as part of this project we built spring boot, java based apps to process payments over rest.  This helped modernize payments processing and provided more reliable processing.',
+    stack: ['Java','TypeScript', 'CI/CD','CSS','HTML','SpringBoot', 'SQL','MicroServices','Angular', 'Docker', 'Kubernetes', 'Design Patterns', 'REST', 'JSON', 'TeamCity'],
+  }
 ]
 
 const skills = [
@@ -55,17 +34,15 @@ const skills = [
   'TypeScript',
   'React',
   'Redux',
-  'SASS',
   'Material UI',
   'Git',
   'CI/CD',
   'Jest',
-  'Enzyme',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'jravali2204@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
